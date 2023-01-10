@@ -70,7 +70,7 @@ namespace slr
             // 
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(13, 30);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(301, 216);
             this.richTextBox1.TabIndex = 0;
@@ -79,7 +79,7 @@ namespace slr
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(340, 926);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 43);
             this.button1.TabIndex = 1;
@@ -91,7 +91,7 @@ namespace slr
             // 
             this.statesBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statesBox.Location = new System.Drawing.Point(1143, 32);
-            this.statesBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.statesBox.Margin = new System.Windows.Forms.Padding(4);
             this.statesBox.Name = "statesBox";
             this.statesBox.Size = new System.Drawing.Size(249, 384);
             this.statesBox.TabIndex = 2;
@@ -102,7 +102,7 @@ namespace slr
             this.parsingTable.BackgroundColor = System.Drawing.SystemColors.Control;
             this.parsingTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.parsingTable.Location = new System.Drawing.Point(13, 273);
-            this.parsingTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.parsingTable.Margin = new System.Windows.Forms.Padding(4);
             this.parsingTable.Name = "parsingTable";
             this.parsingTable.RowHeadersWidth = 51;
             this.parsingTable.Size = new System.Drawing.Size(887, 644);
@@ -112,7 +112,7 @@ namespace slr
             // 
             this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox2.Location = new System.Drawing.Point(913, 433);
-            this.richTextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(613, 51);
             this.richTextBox2.TabIndex = 4;
@@ -123,7 +123,7 @@ namespace slr
             this.parsingStack.BackgroundColor = System.Drawing.SystemColors.Control;
             this.parsingStack.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.parsingStack.Location = new System.Drawing.Point(913, 492);
-            this.parsingStack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.parsingStack.Margin = new System.Windows.Forms.Padding(4);
             this.parsingStack.Name = "parsingStack";
             this.parsingStack.RowHeadersWidth = 51;
             this.parsingStack.Size = new System.Drawing.Size(613, 425);
@@ -132,7 +132,7 @@ namespace slr
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(1143, 925);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(132, 43);
             this.button2.TabIndex = 6;
@@ -210,7 +210,7 @@ namespace slr
             // 
             this.follow.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.follow.Location = new System.Drawing.Point(913, 31);
-            this.follow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.follow.Margin = new System.Windows.Forms.Padding(4);
             this.follow.Name = "follow";
             this.follow.Size = new System.Drawing.Size(223, 216);
             this.follow.TabIndex = 12;
@@ -220,7 +220,7 @@ namespace slr
             // 
             this.first.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.first.Location = new System.Drawing.Point(611, 31);
-            this.first.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.first.Margin = new System.Windows.Forms.Padding(4);
             this.first.Name = "first";
             this.first.Size = new System.Drawing.Size(289, 216);
             this.first.TabIndex = 11;
@@ -231,7 +231,7 @@ namespace slr
             // 
             this.sementics.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sementics.Location = new System.Drawing.Point(322, 26);
-            this.sementics.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sementics.Margin = new System.Windows.Forms.Padding(4);
             this.sementics.Name = "sementics";
             this.sementics.Size = new System.Drawing.Size(281, 221);
             this.sementics.TabIndex = 16;
@@ -359,6 +359,7 @@ namespace slr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1924, 990);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -387,7 +388,7 @@ namespace slr
             this.Controls.Add(this.statesBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
